@@ -1,0 +1,31 @@
+.vercel
+# Ignore compiled files
+*.o
+*.pyc
+*.class
+
+# Ignore dependency directories
+node_modules/
+venv/
+.env
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore sensitive or configuration files
+config.ini
+secrets.json
+
+# Ignore operating system generated files
+.DS_Store
+Thumbs.db
+
+# Ignore build and output directories
+build/
+dist/
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
+
